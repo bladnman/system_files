@@ -1,0 +1,49 @@
+# Ignore all symbolic links
+*~
+
+# Ignore specific directories containing symlinks
+shell_config/
+system_config/
+package_manager_config/
+git_config/
+ssh_config/
+editor_config/
+custom_scripts/
+version_manager_config/
+
+# Ignore editor folders and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# macOS 11+
+com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ignore other files you don't want in Git
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
